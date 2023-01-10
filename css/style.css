@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0,5s;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Segoe UI';
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #ededed;
+}
+
+/* HEADER */
+/* Navbar */
+
+.navbar {
+    background: rgba(201, 180, 219, 0.85);
+    padding: ;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.nav-logo {
+    border-radius: 100px;
+    width: 100px;
+}
+
+
+/* Beneficios Yoga */
+
+.banner {
+    background-image: url(../img/_DSC0027.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .banner {
+        height: 70vh;
+    }
+}
+
+.textbanner1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: Garamond, serif;
+}
+
+.abtme-banner {
+    background-color: #3b043515;
+    background-size: contain;
+    height: 400px;
+}
+
+.motivacional-banner {
+    background-color: #cebcdd5e;
+    background-size: contain;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list-form {
+        list-style-type: disc;
+        list-style: circle;
+}
+
+.btn-bd-primary {
+    color: aliceblue;
+}
+
+.bannertext {
+    text-align: center;
+    filter: drop-shadow(0.5px 10px 4px #ffffff);
+    font-size: 2rem;
+    padding: 10px 10px;
+    font-weight: 500;
+    color: rgb(43, 41, 41);
+}
+
+
+.btn-card {
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.blur {
+    filter: blur(100);
+}
+
+.bg-lotus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.047), rgba(255, 254, 254, 0.485)), url(/img/lotus_background1818x12802.jpg);
+    background-size: cover;
+}
+
+
+/* Seccion Cards con info */
+
+@media (min-width: 992px) {
+    .media-card {
+        justify-content: center;
+        align-items: center;
+    }
+}
+                        /*seccion circulos*/
+
+.img-circle {
+    border-radius: 100%;
+    filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
+    width: 100px;
+    height: 100px;
+}
+.benef-circle {
+    filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
+    opacity: 0.9;
+}
+.benef-circle :hover {
+    opacity: 50;
+    color: wheat;
+    
+}
+
+@media (min-width: 992px) {
+    .img-circle {
+        flex: content;
+        height: 300px;
+        width: 300px;
+    }
+    .egg {
+        height: 30vh;
+    }
+}
+
+
+
+    footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(147, 3, 128, 0.31);
+    color: rgb(0, 0, 0);
+}
+
+.footer-20 {
+    padding: 10px 0 ;
+    background-color: #cebcdd;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-20 .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color:rgb(0, 0, 0);
+}
+
+.footer-20 .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid rgb(35, 34, 34);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer-20 .social a:hover {
+    opacity: 15;
+}
+
+.footer-20 ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-20 ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-20 ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer-20 ul li a:hover {
+    opacity: 1;
+}
+
+.footer-20 .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    border-top: 1px solid #00000026;
+}
