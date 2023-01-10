@@ -45,7 +45,7 @@ body{
 /* Beneficios Yoga */
 
 .banner {
-    background-image: url(../img/_DSC0027.jpg);
+    background-image: url(../img/27.jpg);
     width: 100vw;
     height: 60vh;
     background-size: cover;
@@ -108,7 +108,7 @@ body{
 }
 
 .bg-lotus {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.047), rgba(255, 254, 254, 0.485)), url(../img/lotus_background1818x12802.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.047), rgba(255, 254, 254, 0.485)), url(../img/lotus.jpg);
     background-size: cover;
 }
 
