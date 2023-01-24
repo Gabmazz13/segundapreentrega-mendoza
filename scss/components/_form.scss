@@ -1,0 +1,39 @@
+.contact-form{
+    padding: 2rem 0;
+    border-top: 1px solid #c7c7c7;
+    form {
+        padding-bottom: 1rem;
+        .form-control {
+            width: 100%;
+            border: 1.5 solid #c7c7c7;
+            border-radius: 5px;
+            padding: 0.7rem;
+            margin: 0.6rem 0;
+            font-size: 1rem;
+            outline: 0;
+            &:focus{
+                box-shadow: 0 0 6px -3px rgb(45, 43, 43);
+            }
+        }
+    }
+    form div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0.6rem;
+    }
+    .send-btn{
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        background: blueviolet;
+        border: none;
+        border-radius: 5px;
+        padding: 0.7rem 1.5rem;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+//variables
+@import "./utilities/variables";
+// Base
+@import "./base/reset";
+@import "./base/import";
+@import "./base/typo";
+// components
+@import "./components/form";
+// layout
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/index";
+@import "./layout/acercademi";
+@import "./layout/mindfulness";
+@import "./layout/clases";
+@import "./layout/contacto";
+
+@import "./layout/footer";

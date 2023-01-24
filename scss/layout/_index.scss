@@ -1,0 +1,27 @@
+.bannerindex {
+    background-image: url(../img/27.jpg);
+    width: 100vw;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    .textbanner1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: Garamond, serif;
+        }
+    }
+    .benef-circle {
+        filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
+        opacity: 0.9;
+        }
+        
+        .img-circle {
+            border-radius: 100%;
+            filter: drop-shadow(0 0 0.30rem rgba(77, 64, 81, 0.893));
+            width: 200px;
+            height: 200px;
+        }
+
+
+
